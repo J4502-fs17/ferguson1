@@ -65,9 +65,13 @@ h2 {
   text-decoration: none;
 }
 
-#nav a:hover, #nav a:active {
+#nav a:hover, #nav a:active, {
   background-color: #7a991a;
   text-decoration: underline;
+}
+
+#nav a:visited {
+  color: white;
 }
 
 .box {
