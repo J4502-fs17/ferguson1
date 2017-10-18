@@ -42,7 +42,7 @@ h2 {
   background-color: #9DA699;
   font-weight: bold;
   text-align: center;
-  font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   padding: 4px;
   text-decoration: none;
 }
@@ -56,21 +56,36 @@ h2 {
   color: white;
 }
 
+.photo {
+  width: 100%;
+}
+
+.caption {
+  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+  font-style: italic;
+  text-align: left;
+  margin-top: 5px;
+  font-size: 12px;
+}
+/*
+#box {
+  position: fixed;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}*/
 
 
-/* Fixed position box layout example
-
-.box {
-  background-color: #ccc;
+/*
+#box {
   width: 200px;
   top: 0px;
   right: 60px;
   position: fixed;
   margin-top: -10px;
   padding-top: 10px;
-}
+}*/
 
-*/
+
 
 /*Sticky position box layout example
 
