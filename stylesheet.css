@@ -15,12 +15,23 @@ img {
   margin-right: 10px;
 }
 
+body {
+  background-color: #414142;
+}
+
 p {
   font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
+  color: white;
 }
 
 h1 {
   font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+  color:#FFE993;
+}
+
+h2 {
+  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+  color: black;
 }
 
 #container {
