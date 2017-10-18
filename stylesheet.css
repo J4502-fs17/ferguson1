@@ -21,11 +21,13 @@ p {
 h1 {
   font-family: 'Merriweather', Georgia, "Times New Roman", serif;
   color:#FFE993;
+  text-align: center;
 }
 
 h2 {
   font-family: 'Merriweather', Georgia, "Times New Roman", serif;
   color: #9DA699;
+  text-align: center;
 }
 
 #nav {
@@ -67,6 +69,26 @@ h2 {
   margin-top: 5px;
   font-size: 12px;
 }
+
+.photo_aside {
+  width: 40%;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.activist_name {
+  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+  font-style: none;
+  text-align: center;
+}
+
+.quote {
+  font-size: 20px;
+  font-style: italic;
+}
+
+
 /*
 #box {
   position: fixed;
