@@ -4,6 +4,11 @@
   color: red;
 }*/
 
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 img {
   border: none;
   width: 100%;
