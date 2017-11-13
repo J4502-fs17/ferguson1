@@ -1,27 +1,24 @@
-/*styles go here*/
-
-/*p {
-  color: red;
-}*/
-
 a:visited {
   text-decoration: none;
   color: white;
 }
 
 body {
-  background-color: #414142;
+  /*background-color: #414142;*/
+  background-color: white;
 }
 
 p {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  color: white;
+  /*color: white;*/
+  color: black;
 }
 
 h1 {
   font-family: 'Julius Sans One',"Times New Roman", sans-serif;
   color:#FFE993;
   text-align: center;
+  background-color: #414142;
 }
 
 h2 {
