@@ -91,31 +91,28 @@ h2 {
 }
 
 
-/*
-#box {
-  position: fixed;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-}*/
+@media all and (min-width: 800px) {/*desktop*/
+  .nav-to-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    grid-template-areas:
+    "a b"
+    "c d"
+  }
 
+#one-research {
+  grid-area: a;
+}
 
-/*
-#box {
-  width: 200px;
-  top: 0px;
-  right: 60px;
-  position: fixed;
-  margin-top: -10px;
-  padding-top: 10px;
-}*/
+#one-team {
+  grid-area: b;
+}
 
+#one-research-photo {
+  grid-area: c;
+}
 
-
-/*Sticky position box layout example
-
-.box {
-  background-color: #ccc;
-  position: sticky;
-  width: 200px;
-  top: 20px;
-}*/
+#one-research-team {
+  grid-area: d;
+}
