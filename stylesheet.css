@@ -135,4 +135,57 @@ nav ul li {
   grid-area: d;
 }
 
+.about-the-study {
+  margin-left: 75px;
+  margin-right: 75px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  grid-template-areas:
+  "a a a"
+  "b b c"
+  "f e e"
+  "h h h"
+  "i i i"
+
+
+}
+
+#about-the-study-head{
+  grid-area: a;
+}
+
+#about-the-study-p-one {
+  grid-area: b;
+}
+
+#about-the-study-img-one {
+  grid-area: c;
+}
+
+
+/*about-the-study-photo-caption-one {
+  grid-area: d;*/
+}
+
+#about-the-study-p-two {
+  grid-area: e;
+}
+
+#about-the-study-img-two {
+  grid-area: f;
+}
+
+/*about-the-study-photo-caption-two {
+  grid-area: g;*/
+}
+
+#about-the-study-methodology {
+  grid-area: h;
+  position: center;
+}
+
+#about-the-study-methodology-p {
+grid-area: i;
+}
 }
