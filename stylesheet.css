@@ -4,13 +4,16 @@ a:visited {
 }
 
 body {
-  /*background-color: #414142;*/
   background-color: white;
+}
+
+.placeholder {
+  width: 100%;
+  length: 75%;
 }
 
 p {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  /*color: white;*/
   color: black;
 }
 
@@ -18,7 +21,9 @@ h1 {
   font-family: 'Julius Sans One',"Times New Roman", sans-serif;
   color:#FFE993;
   text-align: center;
-  background-color: #414142;
+  /*padding: 75px 100px;
+  background-image:url("ferguson.jpg");
+  background-repeat: no-repeat;*/
 }
 
 h2 {
