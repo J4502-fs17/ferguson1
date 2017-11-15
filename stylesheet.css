@@ -117,9 +117,8 @@ nav ul {
   text-decoration: none;
 }
 
-a:hover, a:active, {
-  color: #696969;
-  text-decoration: none;
+#nav a:hover, #nav a:active {
+  background-color: #a0a8ad;
 }
 
 #nav a:visited {
