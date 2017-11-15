@@ -29,6 +29,7 @@ h2 {
 p {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   color: black;
+  padding: 30px;
 }
 
 a:visited {
@@ -100,6 +101,9 @@ nav ul {
   font-style: italic;
 }
 
+.maps {
+  width: 100%;
+}
 
 @media all and (min-width: 800px) {/*desktop*/
   .nav-to-about {
