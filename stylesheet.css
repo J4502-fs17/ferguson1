@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 * {
   margin: 0;
   padding: 0;
@@ -38,13 +36,8 @@ h1 {
 
 h2 {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-<<<<<<< HEAD
   color: #2f4141;
   font-size: 35px;
-=======
-  color: #2f4f4f;
-  font-size: 25px;
->>>>>>> origin/master
   text-align: center;
   font-weight: bold;
 }
@@ -54,11 +47,6 @@ p {
   color: black;
   padding: 30px;
   font-size: 18px;
-}
-
-a:visited {
-  text-decoration: none;
-  color: white;
 }
 
 #nav {
@@ -81,8 +69,9 @@ nav ul {
 }
 
 #nav a:link {
-  color: #ffffff;
-  background-color: #9DA699;
+  color: black;
+  text-shadow: 1px 1px white;
+  background-color: #2f4141;
   font-weight: bold;
   text-align: center;
   font-family: "Julius Sans One", Helvetica, Arial, sans-serif;
@@ -91,12 +80,13 @@ nav ul {
 }
 
 #nav a:hover, #nav a:active, {
-  background-color: #7a991a;
-  text-decoration: underline;
+  color: #ffff33;
+  text-decoration: none;
 }
 
 #nav a:visited {
-  color: white;
+  color: black;
+  text-decoration: none;
 }
 
 .photo {
@@ -133,123 +123,17 @@ nav ul {
   width: 100%;
 }
 
-<<<<<<< HEAD
 .mislan-photo {
   width: 100%;
 }
 
 .amalia-photo {
   width: 100%;
-=======
-@media screen and (min-width: 450px /*mobile*/) {
-  .activist-list {
-    display: row;
-  }
-}
-
-@media screen and (min-width: 800px) {/*desktop*/
-  .activist-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-    grid-template-areas:
-    "a b"
-    "c d"
-    "e f"
-    "g h"
-    "i j"
-    "k l"
-    "m n"
-    "o p"
-    "q r"
-    "s t";
-  }
-
- #activist-one {
-    grid-area: a;
-  }
-
- #activist-two {
-    grid-area: b;
-  }
-
- #activist-three {
-    grid-area: c;
-  }
-
- #activist-four {
-    grid-area: d;
-  }
-
- #activist-five {
-    grid-area: e;
-  }
-
- #activist-six {
-    grid-area: f;
-  }
-
- #activist-seven {
-    grid-area: g;
-  }
-
- #activist-eight {
-    grid-area: h;
-  }
-
- #activist-nine {
-    grid-area: i;
-  }
-
- #activist-ten {
-    grid-area: j;
-  }
-
- #activist-eleven {
-    grid-area: k;
-  }
-
- #activist-twelve {
-    grid-area: l;
-  }
-
- #activist-thirteen {
-    grid-area: m;
-  }
-
- #activist-fourteen {
-    grid-area: n;
-  }
-
- #activist-fifteen {
-    grid-area: o;
-  }
-
- #activist-sixteen {
-    grid-area: p;
-  }
-
- #activist-seventeen {
-    grid-area: q;
-  }
-
- #activist-eighteen {
-    grid-area: r;
-  }
-
- #activist-nineteen {
-    grid-area: s;
-  }
-
- #activist-twenty {
-    grid-area: t;
-  }
->>>>>>> origin/master
 }
 
 @media screen and (min-width: 800px) {/*desktop*/
   .about {
-    margins: 0 100px;
+    margin: 0 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
@@ -305,13 +189,13 @@ nav ul {
 }
 
 @media screen and (min-width: 450px /*mobile*/) {
-  .map-all {
+  article {
     display: row;
   }
 }
 
 @media screen and (min-width: 800px/*desktop*/) {
-  .map-all {
+  article {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
