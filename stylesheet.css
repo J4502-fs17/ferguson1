@@ -22,6 +22,10 @@ body {
   text-decoration: none;
 }
 
+.menu a:visited {
+  text-decoration: none;
+}
+
 .visuals-photos {
   display: grid;
   grid-template-areas:
