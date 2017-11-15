@@ -293,4 +293,38 @@ grid-area: i;
     grid-area: t;
   }
 }
+
+@media screen and (min-width: 450px /*mobile*/) {
+  article {
+    display: row;
+  }
+}
+
+@media screen and (min-width: 800px/*desktop*/) {
+  article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    grid-template-areas:
+      "a b"
+      "c d";
+  }
+
+  .map1 {
+    grid-area: a;
+  }
+
+  .map2 {
+    grid-area: b;
+  }
+
+  .map3 {
+    grid-area: c;
+  }
+
+  .map4{
+    grid-area: d;
+  }
+}
+
 >>>>>>> origin/master
