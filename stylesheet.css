@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-=======
-* {
+HEAD {
   margin: 0;
   padding: 0;
 }
@@ -38,13 +36,10 @@ h1 {
 
 h2 {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-<<<<<<< HEAD
   color: #2f4141;
   font-size: 35px;
-=======
   color: #2f4f4f;
   font-size: 25px;
->>>>>>> origin/master
   text-align: center;
   font-weight: bold;
 }
@@ -133,20 +128,19 @@ nav ul {
   width: 100%;
 }
 
-<<<<<<< HEAD
 .mislan-photo {
   width: 100%;
 }
 
 .amalia-photo {
   width: 100%;
-=======
+}
+
 @media screen and (min-width: 450px /*mobile*/) {
   .activist-list {
     display: row;
   }
 }
-
 @media screen and (min-width: 800px) {/*desktop*/
   .activist-list {
     display: grid;
@@ -244,8 +238,7 @@ nav ul {
  #activist-twenty {
     grid-area: t;
   }
->>>>>>> origin/master
-}
+
 
 @media screen and (min-width: 800px) {/*desktop*/
   .about {
