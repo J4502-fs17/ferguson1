@@ -197,6 +197,45 @@ nav ul {
 #about-the-study-methodology-p {
 grid-area: i;
 }
+
+.research-team {
+  margin-left: 75px;
+  margin-right: 75px;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-gap: 0px;
+  grid-template-areas:
+    "a b"
+    "c d"
+}
+
+.mislan-photo {
+  grid-area: a;
+  max-width: 200px;
+}
+
+/*.mislan-header {
+  grid-area: b;
+}*/
+
+.mislan-bio {
+  grid-area: b;
+}
+
+.amalia-photo {
+  grid-area: c;
+  max-width: 200px;
+}
+
+/*.amalia-header {
+  grid-area: e;
+}*/
+
+.amalia-bio {
+  grid-area: d;
+}
+
+
 }
 
 @media all and (min-width: 800px) {/*desktop*/
