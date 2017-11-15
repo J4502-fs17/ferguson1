@@ -15,7 +15,7 @@ body {
 }
 
 .menu {
-  color: black;
+  color: white;
   order: 1;
   font-size: 18px;
   width: 20px;
@@ -109,7 +109,7 @@ nav ul {
 }
 
 #nav a:link {
-  color: black;
+  color: white;
   font-weight: bolder;
   text-align: center;
   font-family: "Julius Sans One", Helvetica, Arial, sans-serif;
@@ -123,7 +123,7 @@ a:hover, a:active, {
 }
 
 #nav a:visited {
-  color: black;
+  color: #e9c1ff;
   text-decoration: none;
 }
 
