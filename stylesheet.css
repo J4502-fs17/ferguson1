@@ -1,5 +1,10 @@
 <<<<<<< HEAD
 =======
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: white;
   margin-left: 40px;
@@ -120,80 +125,18 @@ nav ul {
 
 @media screen and (min-width: 800px) {/*desktop*/
   .about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-    grid-template-areas:
-    "a a"
-    "b c"
-    "d e"
-    "f f"
-    "g g"
-    "h h"
-    "i j"
-    "k l";
+    margin: 0 100px;
   }
-
-  .about-the-study-head {
-    grid-area: a;
-    justify-content: center;
-  }
-
-  .about-the-study-p-one {
-    grid-area: b;
-  }
-
-  .about-the-study-img-one {
-    grid-area: c;
-  }
-
-  .about-the-study-img-two {
-    grid-area: d;
-  }
-
-  .about-the-study-p-two {
-    grid-area: e;
-  }
-
-  .methodology {
-    grid-area: f;
-    justify-content: center;
-  }
-
-  .methodology-p {
-    grid-area: g;
-  }
-
-  .meet-the-team {
-    grid-area: h;
-  }
-
-  .mislan-photo {
-    grid-area: i;
-  }
-
-  .mislan-bio {
-    grid-area: j;
-}
-
-  .amalia-photo {
-    grid-area: k;
-  }
-
-  .amalia-bio {
-    grid-area: l;
-  }
-
 }
 
 @media screen and (min-width: 450px /*mobile*/) {
-  .map-all {
+  article {
     display: row;
   }
 }
 
 @media screen and (min-width: 800px/*desktop*/) {
-  .map-all {
+  article {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
