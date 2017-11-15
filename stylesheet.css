@@ -6,14 +6,25 @@ body {
   margin-right: 40px;
 }
 
-.placeholder {
+.placeholder-main {
   width: 100%;
   length: 75%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.site-title {
+  z-index: 100;
+  position: absolute;
+  top: 50px;
+  left;
 }
 
 h1 {
   font-family: 'Julius Sans One',"Times New Roman", sans-serif;
-  color:#eeee68;
+  color:#ffff33;
+  text-shadow: 2px 1px white;
   font-size: 50px;
   text-align: center;
   font-weight: bolder;
