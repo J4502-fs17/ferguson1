@@ -30,6 +30,10 @@ body {
   display: none;
 }
 
+#nav li {
+    color: #ffff33;
+}
+
 @media screen and (min-width: 800px) {
   #nav {
     display: flex;
@@ -364,3 +368,32 @@ nav ul {
  #activist-twenty {
     grid-area: t;
   }
+
+  @media screen and (min-width: 450px /*mobile*/) {
+    .data-all {
+      display: row;
+    }
+  }
+
+  @media screen and (min-width: 800px) {/*desktop*/
+    .data-all {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 15px;
+      grid-template-areas:
+      "a b c";
+  }
+
+  .socialmedia {
+     grid-area: a;
+   }
+
+  .visuals {
+     grid-area: b;
+   }
+
+  .archives {
+     grid-area: c;
+   }
+
+ }
