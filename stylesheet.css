@@ -1,24 +1,21 @@
-a:visited {
-  text-decoration: none;
-  color: white;
-}
-
 body {
-  /*background-color: #414142;*/
   background-color: white;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
-p {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  /*color: white;*/
-  color: black;
+.placeholder {
+  width: 100%;
+  length: 75%;
 }
 
 h1 {
   font-family: 'Julius Sans One',"Times New Roman", sans-serif;
   color:#FFE993;
   text-align: center;
-  background-color: #414142;
+  /*padding: 75px 100px;
+  background-image:url("ferguson.jpg");
+  background-repeat: no-repeat;*/
 }
 
 h2 {
@@ -27,12 +24,26 @@ h2 {
   text-align: center;
 }
 
+p {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 #nav {
   padding: 0;
 }
 
 #nav li {
   list-style-type: none;
+}
+
+nav ul li {
+  display: block;
 }
 
 #nav a:link {
@@ -86,31 +97,95 @@ h2 {
 }
 
 
-/*
-#box {
-  position: fixed;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-}*/
+@media all and (min-width: 800px) {/*desktop*/
+  .nav-to-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    grid-template-areas:
+    "a b"
+    "c d"
+  }
+
+  nav ul {
+    flex-flow: row;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  nav ul li {
+    padding: 0 40px;
+    margin: 5px;
+  }
 
 
-/*
-#box {
-  width: 200px;
-  top: 0px;
-  right: 60px;
-  position: fixed;
-  margin-top: -10px;
-  padding-top: 10px;
-}*/
+#one-research {
+  grid-area: a;
+}
+
+#one-team {
+  grid-area: b;
+}
+
+#one-research-photo {
+  grid-area: c;
+}
+
+#one-research-team {
+  grid-area: d;
+}
+
+.about-the-study {
+  margin-left: 75px;
+  margin-right: 75px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  grid-template-areas:
+  "a a a"
+  "b b c"
+  "f e e"
+  "h h h"
+  "i i i"
 
 
+}
 
-/*Sticky position box layout example
+#about-the-study-head{
+  grid-area: a;
+}
 
-.box {
-  background-color: #ccc;
-  position: sticky;
-  width: 200px;
-  top: 20px;
-}*/
+#about-the-study-p-one {
+  grid-area: b;
+}
+
+#about-the-study-img-one {
+  grid-area: c;
+}
+
+
+/*about-the-study-photo-caption-one {
+  grid-area: d;*/
+}
+
+#about-the-study-p-two {
+  grid-area: e;
+}
+
+#about-the-study-img-two {
+  grid-area: f;
+}
+
+/*about-the-study-photo-caption-two {
+  grid-area: g;*/
+}
+
+#about-the-study-methodology {
+  grid-area: h;
+  position: center;
+}
+
+#about-the-study-methodology-p {
+grid-area: i;
+}
+}
