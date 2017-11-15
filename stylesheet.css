@@ -105,11 +105,11 @@ nav ul {
   flex-flow: row;
   justify-content: space-between;
   margin-bottom: 25px;
+  background-color:  #696969;
 }
 
 #nav a:link {
   color: black;
-  background-color: #696969;
   font-weight: bolder;
   text-align: center;
   font-family: "Julius Sans One", Helvetica, Arial, sans-serif;
@@ -117,8 +117,8 @@ nav ul {
   text-decoration: none;
 }
 
-#nav a:hover, #nav a:active, {
-  color: #ffff33;
+a:hover, a:active, {
+  color: #696969;
   text-decoration: none;
 }
 
