@@ -19,6 +19,7 @@ body {
   order: 1;
   font-size: 36px;
   width: 20px;
+  text-decoration: none;
 }
 
 .visuals-photos {
