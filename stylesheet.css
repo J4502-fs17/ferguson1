@@ -238,7 +238,7 @@ grid-area: i;
 
 }
 
-@media all and (min-width: 800px) {/*desktop*/
+@media screen and (min-width: 800px) {/*desktop*/
   .activist-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -253,7 +253,7 @@ grid-area: i;
     "m n"
     "o p"
     "q r"
-    "s t"
+    "s t";
   }
 
   #activist-one {
