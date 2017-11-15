@@ -33,11 +33,12 @@ h1 {
   font-size: 50px;
   text-align: center;
   font-weight: bolder;
+  background-color: #2f4141;
 }
 
 h2 {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  color: #2f4f4f;
+  color: #2f4141;
   font-size: 35px;
   text-align: center;
   font-weight: bold;
@@ -123,9 +124,68 @@ nav ul {
   width: 100%;
 }
 
+.mislan-photo {
+  width: 100%;
+}
+
+.amalia-photo {
+  width: 100%;
+}
+
 @media screen and (min-width: 800px) {/*desktop*/
   .about {
-    margin: 0 100px;
+    margins: 0 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    grid-template-areas:
+    "a a"
+    "b c"
+    "d d"
+    "e e"
+    "f f"
+    "g h"
+    "i j";
+  }
+
+  .about-the-study-head {
+    grid-area: a;
+  }
+
+  .about-the-study-p-one {
+    grid-area: b;
+  }
+
+  .about-the-study-img-one {
+    grid-area: c;
+  }
+
+  .methodology {
+    grid-area: d;
+  }
+
+  .methodology-p {
+    grid-area: e;
+  }
+
+  .meet-the-team {
+    grid-area: f;
+  }
+
+  .mislan-photo {
+    grid-area: g;
+  }
+
+  .mislan-bio {
+    grid-area: h;
+  }
+
+  .amalia-photo {
+    grid-area: i;
+  }
+
+  .amalia-bio {
+    grid-area: j;
   }
 }
 
