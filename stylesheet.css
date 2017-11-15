@@ -14,6 +14,44 @@ body {
   height: 250px;
 }
 
+.menu {
+  color: black;
+  order: 1;
+  font-size: 18px;
+  width: 20px;
+}
+
+/*header h1 {
+  order: 2;
+  font-size: 20px;
+}*/
+
+#nav {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  #nav {
+    display: flex;
+  }
+
+  #nav li {
+    border-top: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  /*header h1 {
+    order: 1;
+  }*/
+
+  /*#nav {
+    order: 2;
+  }*/
+}
+
 h1 {
   font-family: 'Julius Sans One',"Times New Roman", sans-serif;
   color:#ffff33;
