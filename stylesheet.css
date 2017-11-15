@@ -42,7 +42,7 @@ a:visited {
   list-style-type: none;
 }
 
-nav ul li {
+nav ul {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -191,4 +191,103 @@ nav ul li {
 #about-the-study-methodology-p {
 grid-area: i;
 }
+}
+
+@media all and (min-width: 800px) {/*desktop*/
+  .activist-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    grid-template-areas:
+    "a b"
+    "c d"
+    "e f"
+    "g h"
+    "i j"
+    "k l"
+    "m n"
+    "o p"
+    "q r"
+    "s t"
+  }
+
+  #activist-one {
+    grid-area: a;
+  }
+
+  #activist-two {
+    grid-area: b;
+  }
+
+  #activist-three {
+    grid-area: c;
+  }
+
+  #activist-four {
+    grid-area: d;
+  }
+
+  #activist-five {
+    grid-area: e;
+  }
+
+  #activist-six {
+    grid-area: f;
+  }
+
+  #activist-seven {
+    grid-area: g;
+  }
+
+  #activist-eight {
+    grid-area: h;
+  }
+
+  #activist-nine {
+    grid-area: i;
+  }
+
+  #activist-ten {
+    grid-area: j;
+  }
+
+  #activist-eleven {
+    grid-area: k;
+  }
+
+  #activist-twelve {
+    grid-area: l;
+  }
+
+  #activist-thirteen {
+    grid-area: m;
+  }
+
+  #activist-fourteen {
+    grid-area: n;
+  }
+
+  #activist-fifteen {
+    grid-area: o;
+  }
+
+  #activist-sixteen {
+    grid-area: p;
+  }
+
+  #activist-seventeen {
+    grid-area: q;
+  }
+
+  #activist-eighteen {
+    grid-area: r;
+  }
+
+  #activist-nineteen {
+    grid-area: s;
+  }
+
+  #activist-twenty {
+    grid-area: t;
+  }
 }
