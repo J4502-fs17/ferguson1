@@ -323,13 +323,13 @@ grid-area: i;
 }
 
 @media screen and (min-width: 450px /*mobile*/) {
-  article {
+  .map-all {
     display: row;
   }
 }
 
 @media screen and (min-width: 800px/*desktop*/) {
-  article {
+  .map-all {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
