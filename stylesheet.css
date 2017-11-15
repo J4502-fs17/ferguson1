@@ -106,8 +106,9 @@ nav ul {
 }
 
 @media all and (min-width: 800px) {/*desktop*/
-  .nav-to-about {
+  .about {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
     grid-template-areas:
@@ -254,87 +255,71 @@ grid-area: i;
     "o p"
     "q r"
     "s t";
+=======
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    grid-template-areas:
+    "a a a"
+    "b b c"
+    "e d d"
+    "f f f"
+    "g g g"
+    "h h h"
+    "i j j"
+    "k l l"
+>>>>>>> origin/master
   }
 
-  #activist-one {
+  .about-the-study-head {
     grid-area: a;
+    justify-content: center;
   }
 
-  #activist-two {
+  .about-the-study-p-one {
     grid-area: b;
   }
 
-  #activist-three {
+  .about-the-study-img-one {
     grid-area: c;
   }
 
-  #activist-four {
-    grid-area: d;
-  }
-
-  #activist-five {
+  .about-the-study-img-two {
     grid-area: e;
   }
 
-  #activist-six {
-    grid-area: f;
+  .about-the-study-p-two {
+    grid-area: d;
   }
 
-  #activist-seven {
+  .methodology {
+    grid-area: f;
+    justify-content: center;
+  }
+
+  .methodology-p {
     grid-area: g;
   }
 
-  #activist-eight {
+  .meet-the-team {
     grid-area: h;
   }
 
-  #activist-nine {
+  .mislan-photo {
     grid-area: i;
   }
 
-  #activist-ten {
+  .mislan-bio {
     grid-area: j;
-  }
+}
 
-  #activist-eleven {
+  .amalia-photo {
     grid-area: k;
   }
 
-  #activist-twelve {
+  .amalia-bio {
     grid-area: l;
   }
 
-  #activist-thirteen {
-    grid-area: m;
-  }
-
-  #activist-fourteen {
-    grid-area: n;
-  }
-
-  #activist-fifteen {
-    grid-area: o;
-  }
-
-  #activist-sixteen {
-    grid-area: p;
-  }
-
-  #activist-seventeen {
-    grid-area: q;
-  }
-
-  #activist-eighteen {
-    grid-area: r;
-  }
-
-  #activist-nineteen {
-    grid-area: s;
-  }
-
-  #activist-twenty {
-    grid-area: t;
-  }
 }
 
 @media screen and (min-width: 450px /*mobile*/) {
