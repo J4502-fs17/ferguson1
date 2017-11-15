@@ -40,21 +40,21 @@ a:visited {
 
 #nav li {
   list-style-type: none;
-  display: flex;
-  flex-flow: row;
 }
 
 nav ul li {
-  display: block;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-bottom: 25px;
 }
 
 #nav a:link {
-  display: block;
   color: #ffffff;
   background-color: #9DA699;
   font-weight: bold;
   text-align: center;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Julius Sans One", Helvetica, Arial, sans-serif;
   padding: 4px;
   text-decoration: none;
 }
@@ -110,8 +110,9 @@ nav ul li {
   }
 
   nav ul {
+    display: flex;
     flex-flow: row;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 25px;
   }
 
