@@ -43,15 +43,16 @@ body {
 
 #nav li {
     color: #ffff33;
+    list-style-type: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 @media screen and (min-width: 800px) {
   #nav {
     display: flex;
-  }
-
-  #nav li {
-    border-top: none;
   }
 
   .menu {
@@ -101,15 +102,6 @@ p {
   color: black;
   padding: 30px;
   font-size: 18px;
-}
-
-#nav {
-  padding: 0;
-}
-
-#nav li {
-  list-style-type: none;
-  padding: 15px;
 }
 
 nav ul {
