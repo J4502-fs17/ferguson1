@@ -21,6 +21,12 @@ body {
   width: 20px;
 }
 
+.visuals-photos {
+  display: grid;
+  grid-template-areas:
+  "u v w"
+}
+
 /*header h1 {
   order: 2;
   font-size: 20px;
@@ -134,7 +140,7 @@ nav ul {
   font-family: 'Merriweather', Georgia, "Times New Roman", serif;
   font-style: italic;
   text-align: left;
-  margin-top: 5px;
+  margin-top: 3px;
   font-size: 12px;
 }
 
@@ -366,6 +372,18 @@ nav ul {
 
  #activist-twenty {
     grid-area: t;
+  }
+
+  #photo1 {
+    grid-area: u;
+  }
+
+  #photo2 {
+    grid-area: v;
+  }
+
+  #photo3 {
+    grid-area: w;
   }
 
   @media screen and (min-width: 450px /*mobile*/) {
