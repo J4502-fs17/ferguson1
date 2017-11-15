@@ -40,6 +40,8 @@ a:visited {
 
 #nav li {
   list-style-type: none;
+  display: flex;
+  flex-flow: row;
 }
 
 nav ul li {
