@@ -55,10 +55,6 @@ body {
     display: flex;
   }
 
-  .menu {
-    display: none;
-  }
-
   /*header h1 {
     order: 1;
   }*/
@@ -382,6 +378,11 @@ nav ul {
 
   #photo3 {
     grid-area: w;
+  }
+
+  #resources-nav {
+    font-family: "Julius Sans One", Helvetica, Arial, sans-serif;
+    font-weight: bold;
   }
 
   @media screen and (min-width: 450px /*mobile*/) {
