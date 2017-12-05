@@ -77,7 +77,6 @@ h2 {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   color: #696969;
   font-size: 35px;
-  font-size: 25px;
   text-align: center;
   font-weight: bold;
   padding: 5px;
@@ -96,7 +95,7 @@ p {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   color: black;
   padding: 0px 30px;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 nav ul {
