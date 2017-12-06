@@ -439,39 +439,45 @@ body {
   margin-right: 40px;
 }
 
+.body-container {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+#container {
+	width: 90%;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: 0 auto;
+}
+
 .title {
   background-image: url("Ferguson.jpg");
   height: 250px;
 }
 
-.menu {
-  color: black;
-  order: 1;
-  font-size: 36px;
-  width: 20px;
-  text-decoration: none;
+.site-title {
+  font-family: 'Roboto',Helvetica, Arial, sans-serif;
+  font-size: 900px;
+  font-style: bold;
+  color: yellow;
+  display: inline;
+  white-space: nowrap;
+  min-width: 4px;
+  width: 4vw;
+  height: 5vh;
+  margin: auto;
+  font-size: 4vw;
+  text-align: center;
 }
 
-.menu a:visited {
-  text-decoration: none;
-}
-
-.visuals-photos {
-  display: grid;
-  grid-template-areas:
-  "u v w"
-}
-
-/*header h1 {
-  order: 2;
-  font-size: 20px;
+/*NAV BAR*/
+/*nav {
+  display: none;
 }*/
 
-#nav {
-  display: none;
-}
 
-#nav li {
+nav li {
     color: #ffff33;
     list-style-type: none;
     padding-left: 50px;
@@ -480,96 +486,117 @@ body {
     padding-bottom: 10px;
 }
 
-@media screen and (min-width: 800px) {
-  #nav {
-    display: flex;
-  }
-
-  .menu {
-    display: none;
-  }
-
-  /*header h1 {
-    order: 1;
-  }*/
-
-  /*#nav {
-    order: 2;
-  }*/
+nav ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  background-color:  #696969;
 }
 
+nav a:link {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  padding: 4px;
+  text-decoration: none;
+}
+
+nav a:hover, nav a:active {
+  color: #ffff33;
+}
+
+nav a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+  background-color: #696969;
+  margin: 0;
+ }
+
+ .menu {
+   color: black;
+   font-size: 40px;
+   width: 20px;
+	 padding-bottom: 20px
+}
+
+
+ nav ul {
+   display: none;
+ }
+
+@media screen and (min-width: 800px){
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+      border-top: none;
+    }
+
+    .menu {
+      display: none;
+    }
+}
+
+/*FONT*/
 h1 {
-  font-family: 'Julius Sans One',"Times New Roman", sans-serif;
+  font-family: 'Roboto',Helvetica, Arial, sans-serif;
   color:#ffff33;
   text-shadow: 2px 1px #696969;
   font-size: 50px;
   text-align: center;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 h2 {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  color: #ffff33;
+  color: #696969;
   font-size: 35px;
-  background-color: #696969;
-  font-size: 25px;
   text-align: center;
   font-weight: bold;
   padding: 5px;
+	padding-top: 15px;
 }
 
 h3 {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  color: #696969;
+  color: #ffff33;
+  text-shadow: 2px 1px #696969;
   font-size: 25px;
   text-align: center;
   padding: 5px;
-
 }
 
 p {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   color: black;
-  padding: 30px;
+  padding: 0px 30px;
   font-size: 18px;
 }
 
-nav ul {
+
+/*PHOTOS*/
+.part-one-image {
+ width: 20%;
+ align-items: right;
+ display: inline;
+}
+
+.image1.partfour {
   display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-  margin-bottom: 25px;
-  background-color:  #696969;
-}
-
-#nav a:link {
-  color: white;
-  font-weight: bolder;
-  text-align: center;
-  font-family: "Julius Sans One", Helvetica, Arial, sans-serif;
-  padding: 4px;
-  text-decoration: none;
-}
-
-#nav a:hover, #nav a:active {
-  background-color: #a0a8ad;
-}
-
-#nav a:visited {
-  color: white;
-  text-decoration: none;
+  margin: 0 auto;
 }
 
 .photo {
   width: 100%;
-}
-
-.caption {
-  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
-  font-style: italic;
-  text-align: left;
-  margin-top: 3px;
-  font-size: 12px;
+  padding: 0'
 }
 
 .photo_aside {
@@ -579,266 +606,99 @@ nav ul {
   margin-top: 10px;
 }
 
-.activist_name {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  font-style: none;
-  text-align: center;
-}
-
-.quote {
-  font-size: 20px;
-  font-style: italic;
-}
-
-.maps {
-  width: 100%;
-}
-
 .mislan-photo {
-  width: 100%;
+  width: 20%;
+	display: inline;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	float: left;
+	clear: left;
 }
 
 .amalia-photo {
-  width: 100%;
+  width: 20%;
+	display;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	float: left;
+	clear: left;
 }
 
+@media screen and (max-width: 650px) {
+	.mislan-photo, .amalia-photo {
+		display: none;
+	}
+
+	.about-the-study-p-one, .mislan-bio, .amalia-bio {
+		text-align: justify;
+	}
+}
+
+
 @media screen and (min-width: 450px /*mobile*/) {
-  .activist-list {
+  article {
     display: row;
   }
 }
 
-@media screen and (min-width: 800px) {/*desktop*/
-  .about {
+@media screen and (min-width: 800px) {/*desktop ABOUT PAGE!!*/
+  .map-all {
+    margin: 0 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    padding: 15px;
+    grid-template-areas:
+    "a b";
+  }
+
+ .map1 {
+    grid-area: a;
+    width: 90%;
+    width: 85%;
+    width: 85%;
+  }
+
+ .map2 {
+    grid-area: b;
+    width: 90%;
+    width: 85%;
+    width: 85%;
+  }
+}
+
+/* grid layout for part 1*/
+
+@media screen and (min-width: 450px /*mobile*/) {
+  article {
+    display: row;
+  }
+}
+
+@media screen and (min-width: 800px) {/*desktop ABOUT PAGE!!*/
+  .part1maps {
     margin: 0 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
+    grid-gap: 25px;
+    grid-gap: 25px;
+    padding: 15px;
     grid-template-areas:
-    "a a"
-    "b c"
-    "d d"
-    "e e"
-    "f f"
-    "g h"
-    "i j";
+    "a b";
   }
 
-  .about-the-study-head {
+ .map3 {
     grid-area: a;
+    width: 90%;
+    width: 85%;
+    width: 85%;
   }
 
-  .about-the-study-p-one {
+ .map4{
     grid-area: b;
-  }
-
-  .about-the-study-img-one {
-    grid-area: c;
-  }
-
-  .methodology {
-    grid-area: d;
-  }
-
-  .methodology-p {
-    grid-area: e;
-  }
-
-  .meet-the-team {
-    grid-area: f;
-  }
-
-  .mislan-photo {
-    grid-area: g;
-  }
-
-  .mislan-bio {
-    grid-area: h;
-  }
-
-  .amalia-photo {
-    grid-area: i;
-  }
-
-  .amalia-bio {
-    grid-area: j;
+    width: 90%;
+    width: 85%;
+    width: 85%;
   }
 }
-
-@media screen and (min-width: 450px /*mobile*/) {
-  article {
-    display: row;
-  }
-}
-
-@media screen and (min-width: 800px/*desktop*/) {
-  article {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-    grid-template-areas:
-      "a b"
-      "c d";
-  }
-
-  .map1 {
-    grid-area: a;
-  }
-
-  .map2 {
-    grid-area: b;
-  }
-
-  .map3 {
-    grid-area: c;
-  }
-
-  .map4{
-    grid-area: d;
-  }
-}
-
-@media screen and (min-width: 450px /*mobile*/) {
-  .activist-list {
-    display: row;
-  }
-}
-
-@media screen and (min-width: 800px) {/*desktop*/
-  .activist-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-    grid-template-areas:
-    "a b"
-    "c d"
-    "e f"
-    "g h"
-    "i j"
-    "k l"
-    "m n"
-    "o p"
-    "q r"
-    "s t";
-  }
-
- #activist-one {
-    grid-area: a;
-  }
-
- #activist-two {
-    grid-area: b;
-  }
-
- #activist-three {
-    grid-area: c;
-  }
-
- #activist-four {
-    grid-area: d;
-  }
-
- #activist-five {
-    grid-area: e;
-  }
-
- #activist-six {
-    grid-area: f;
-  }
-
- #activist-seven {
-    grid-area: g;
-  }
-
- #activist-eight {
-    grid-area: h;
-  }
-
- #activist-nine {
-    grid-area: i;
-  }
-
- #activist-ten {
-    grid-area: j;
-  }
-
- #activist-eleven {
-    grid-area: k;
-  }
-
- #activist-twelve {
-    grid-area: l;
-  }
-
- #activist-thirteen {
-    grid-area: m;
-  }
-
- #activist-fourteen {
-    grid-area: n;
-  }
-
- #activist-fifteen {
-    grid-area: o;
-  }
-
- #activist-sixteen {
-    grid-area: p;
-  }
-
- #activist-seventeen {
-    grid-area: q;
-  }
-
- #activist-eighteen {
-    grid-area: r;
-  }
-
- #activist-nineteen {
-    grid-area: s;
-  }
-
- #activist-twenty {
-    grid-area: t;
-  }
-
-  #photo1 {
-    grid-area: u;
-  }
-
-  #photo2 {
-    grid-area: v;
-  }
-
-  #photo3 {
-    grid-area: w;
-  }
-
-  @media screen and (min-width: 450px /*mobile*/) {
-    .data-all {
-      display: row;
-    }
-  }
-
-  @media screen and (min-width: 800px) {/*desktop*/
-    .data-all {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-gap: 15px;
-      grid-template-areas:
-      "a b c";
-  }
-
-  .socialmedia {
-     grid-area: a;
-   }
-
-  .visuals {
-     grid-area: b;
-   }
-
-  .archives {
-     grid-area: c;
-   }
-
- }
