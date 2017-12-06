@@ -98,6 +98,13 @@ p {
   font-size: 18px;
 }
 
+.image1.partfour {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
 nav ul {
   display: flex;
   flex-flow: row;
