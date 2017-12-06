@@ -82,6 +82,7 @@ h2 {
 h3 {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   color: #ffff33;
+  text-shadow: 2px 1px #696969;
   font-size: 25px;
   text-align: center;
   padding: 5px;
@@ -216,7 +217,7 @@ p {
     margin: 0 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
+    grid-gap: 25px;
     padding: 15px;
     grid-template-areas:
     "a b"
@@ -224,11 +225,11 @@ p {
 
  .map1 {
     grid-area: a;
-    width: 90%;
+    width: 85%;
   }
 
  .map2 {
     grid-area: b;
-    width: 90%;
+    width: 85%;
   }
 }
