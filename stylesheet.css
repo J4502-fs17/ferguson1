@@ -625,9 +625,7 @@ p {
     margin: 0 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-    grid-gap: 25px;
-    grid-gap: 25px;
+    grid-gap: 40px;
     padding: 15px;
     grid-template-areas:
     "a b"
