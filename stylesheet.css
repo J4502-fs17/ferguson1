@@ -210,3 +210,25 @@ p {
     display: row;
   }
 }
+
+@media screen and (min-width: 800px) {/*desktop ABOUT PAGE!!*/
+  .map-all {
+    margin: 0 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    padding: 15px;
+    grid-template-areas:
+    "a b"
+  }
+
+ .map1 {
+    grid-area: a;
+    width: 90%;
+  }
+
+ .map2 {
+    grid-area: b;
+    width: 90%;
+  }
+}
