@@ -245,7 +245,11 @@ p {
     grid-template-columns: 1fr 1fr;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     grid-gap: 15px;
+=======
+    grid-gap: 25px;
+>>>>>>> cc2a44535d319e2fc7a2afdcfee13c9a8c01a8a6
 =======
     grid-gap: 25px;
 >>>>>>> cc2a44535d319e2fc7a2afdcfee13c9a8c01a8a6
@@ -261,7 +265,11 @@ p {
     grid-area: a;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 90%;
+=======
+    width: 85%;
+>>>>>>> cc2a44535d319e2fc7a2afdcfee13c9a8c01a8a6
 =======
     width: 85%;
 >>>>>>> cc2a44535d319e2fc7a2afdcfee13c9a8c01a8a6
@@ -274,7 +282,11 @@ p {
     grid-area: b;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 90%;
+=======
+    width: 85%;
+>>>>>>> cc2a44535d319e2fc7a2afdcfee13c9a8c01a8a6
 =======
     width: 85%;
 >>>>>>> cc2a44535d319e2fc7a2afdcfee13c9a8c01a8a6
