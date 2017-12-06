@@ -451,6 +451,10 @@ body {
 	margin: 0 auto;
 }
 
+#resouces-nav {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
 .title {
   background-image: url("Ferguson.jpg");
   height: 250px;
