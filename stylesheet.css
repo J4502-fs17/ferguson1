@@ -1,3 +1,4 @@
+/*CAROUSEL*/
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
 	margin:0;
 	padding:0;
@@ -410,7 +411,7 @@ a{
 @media screen and (max-width: 600px) {
 	.slideshow li div h3 { font-size: 50px }
 }
-
+/*END CAROUSEL*/
 
 * {
   margin: 0;
@@ -422,6 +423,12 @@ body {
   margin-left: 40px;
   margin-right: 40px;
 }
+
+.body-container {
+	max-width: 85%;
+	margin: 0 auto;
+}
+
 
 .title {
   background-image: url("Ferguson.jpg");
