@@ -94,7 +94,13 @@ p {
   font-size: 18px;
 }
 
-/*PHOTO*/
+/*PHOTOS*/
+.part-one-image {
+ width: 20%;
+ align-items: right;
+ display: inline;
+}
+
 .image1.partfour {
   display: flex;
   margin-left: auto;
@@ -104,6 +110,7 @@ p {
 
 .photo {
   width: 100%;
+  padding: 0'
 }
 
 .photo_aside {
@@ -165,6 +172,36 @@ p {
 
   .amalia-bio {
     grid-area: h;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container-part-one {
+    margin: 0 100px;
+    display: grid;
+    grid-template columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+    "a b"
+    "c d"
+  }
+
+  .part-one-text-one {
+    grid-area: a;
+  }
+
+  .part-one-image-race {
+    grid-area: b;
+  }
+
+  .part-one-text-two {
+    grid-area: c;
+  }
+
+  .part-one-image-socio {
+    grid-area: d;
+  }
+
   }
 }
 
