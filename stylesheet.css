@@ -647,3 +647,45 @@ p {
     width: 85%;
   }
 }
+
+/* grid layout for part 1*/
+@media screen and (mid-width 800px) {
+	.container-part-one {
+    margin: 0 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    grid-gap: 25px;
+    grid-gap: 25px;
+    padding: 15px;
+    grid-template-areas:
+    "a a"
+		"b c"
+		"d e"
+	}
+	.part-one-text {
+		grid-area: a;
+	}
+
+	.map-racial {
+		grid-area: b;
+	}
+
+	.map-socio {
+		grid-area: c;
+	}
+
+	.part-one-image-race {
+		grid-area: d;
+		width: 90%;
+    width: 85%;
+    width: 85%;
+	}
+
+	.part-one-image-socio {
+		grid-area: e;
+		width: 90%;
+    width: 85%;
+    width: 85%;
+	}
+}
