@@ -14,6 +14,20 @@ body {
   height: 250px;
 }
 
+.site-title {
+  font-family: 'Roboto',Helvetica, Arial, sans-serif;
+  font-size: 900px;
+  font-style: bold;
+  color: yellow;
+  display: inline;
+  white-space: nowrap;
+  width: 4vw;
+  height: 5vh;
+  margin: auto;
+  font-size: 4vw;
+  text-align: center;
+}
+
 /*NAV BAR*/
 /*nav {
   display: none;
