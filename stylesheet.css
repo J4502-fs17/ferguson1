@@ -425,7 +425,7 @@ body {
 }
 
 .body-container {
-	max-width: 85%;
+	max-width: 80%;
 	margin: 0 auto;
 }
 
@@ -586,89 +586,33 @@ p {
 }
 
 .mislan-photo {
-  width: 100%;
+  width: 20%;
+	display: inline;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	float: left;
+	clear: left;
 }
 
 .amalia-photo {
-  width: 100%;
+  width: 20%;
+	display;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	float: left;
+	clear: left;
 }
 
-@media screen and (min-width: 800px) {/*desktop ABOUT PAGE!!*/
-  .container-about {
-    margin: 0 100px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 15px;
-    grid-template-areas:
-    "a a a"
-    "b b c"
-    "d d d"
-    "e f f"
-    "g h h"
-  }
+@media screen and (max-width: 650px) {
+	.mislan-photo, .amalia-photo {
+		display: none;
+	}
 
-  .about-the-study-head {
-    grid-area: a;
-  }
-
-  .about-the-study-p-one {
-    grid-area: b;
-  }
-
-  .about-the-study-img-one {
-    grid-area: c;
-  }
-
-  .meet-the-team {
-    grid-area: d;
-  }
-
-  .mislan-photo {
-    grid-area: e;
-  }
-
-  .mislan-bio {
-    grid-area: f;
-  }
-
-  .amalia-photo {
-    grid-area: g;
-  }
-
-  .amalia-bio {
-    grid-area: h;
-  }
+	.about-the-study-p-one, .mislan-bio, .amalia-bio {
+		text-align: justify;
+	}
 }
 
-@media screen and (min-width: 800px) {
-  .container-part-one {
-    margin: 0 100px;
-    display: grid;
-    grid-template columns: 1fr 1fr;
-    grid-gap: 10px;
-    grid-template-areas:
-    "a b"
-    "c d"
-  }
-
-  .part-one-text-one {
-    grid-area: a;
-  }
-
-  .part-one-image-race {
-    grid-area: b;
-  }
-
-  .part-one-text-two {
-    grid-area: c;
-  }
-
-  .part-one-image-socio {
-    grid-area: d;
-  }
-
-  }
-}
 
 @media screen and (min-width: 450px /*mobile*/) {
   article {
