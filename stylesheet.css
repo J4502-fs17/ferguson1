@@ -451,8 +451,12 @@ body {
 	margin: 0 auto;
 }
 
-#resouces-nav {
+#resources {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+#resources a:hover, #resources a:active {
+  color: #ffff33;
 }
 
 .title {
@@ -495,7 +499,6 @@ nav ul {
   flex-flow: row;
   justify-content: space-between;
   background-color:  #696969;
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 nav a:link {
