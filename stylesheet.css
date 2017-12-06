@@ -630,7 +630,7 @@ p {
     grid-gap: 25px;
     padding: 15px;
     grid-template-areas:
-    "a b"
+    "a b";
   }
 
  .map1 {
@@ -649,8 +649,15 @@ p {
 }
 
 /* grid layout for part 1*/
-@media screen and (mid-width 800px) {
-	.container-part-one {
+
+@media screen and (min-width: 450px /*mobile*/) {
+  article {
+    display: row;
+  }
+}
+
+@media screen and (min-width: 800px) {/*desktop ABOUT PAGE!!*/
+  .part1maps {
     margin: 0 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -659,33 +666,20 @@ p {
     grid-gap: 25px;
     padding: 15px;
     grid-template-areas:
-    "a a"
-		"b c"
-		"d e"
-	}
-	.part-one-text {
-		grid-area: a;
-	}
+    "a b";
+  }
 
-	.map-racial {
-		grid-area: b;
-	}
-
-	.map-socio {
-		grid-area: c;
-	}
-
-	.part-one-image-race {
-		grid-area: d;
-		width: 90%;
+ .map3 {
+    grid-area: a;
+    width: 90%;
     width: 85%;
     width: 85%;
-	}
+  }
 
-	.part-one-image-socio {
-		grid-area: e;
-		width: 90%;
+ .map4{
+    grid-area: b;
+    width: 90%;
     width: 85%;
     width: 85%;
-	}
+  }
 }
